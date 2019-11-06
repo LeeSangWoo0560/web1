@@ -24,7 +24,7 @@ if($PC_MODE == 'true') $_SESSION['PC_MODE'] = "true";
 if(is_moblile() && $_SESSION['PC_MODE'] != "true")
 {
 /*모바일폴더로 간다면 모바일 폴더의 페이지주소입력*/
-  header("https://leesangwoo0560.github.io/web1/css/mobile.html");
+  header(location:"https://leesangwoo0560.github.io/web1/css/mobile.html");
 }
 
 ?>
